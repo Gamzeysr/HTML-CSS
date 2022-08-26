@@ -1,0 +1,78 @@
+@import "../session-8/theme.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--ff-dyna);
+    background-color: var(--gri-6);
+    color: var(--siyah-);
+}
+
+h1 {
+
+    background-color: var(--koyu-kirmizi);
+    border: 1px solid black;
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 30px;
+    /* text-align: center; */
+    /*! burada text-align: center; calişmaz çünkü borderin içindeki yazıyı ortalar biz kutuyu ortalicaz o yüzden margin ile ortalayabilirz */
+    margin: 1rem auto;
+}
+
+.header {
+    background-color: var(--acik-yesil);
+    padding: 1rem;
+    margin: 1rem 1rem;
+    text-align: center;
+    color: var(--beyaz);
+    font-size: 2rem;
+}
+
+.navbar {
+    background-color: var(--gri-1);
+    padding: 1rem;
+    margin: 1rem 1rem;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.navbar a {
+    color: var(--beyaz);
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: var(--gri-7);
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+
+
+
+}
+
+.fs {
+    margin: 1rem;
+}
+
+.aws {
+    margin: 1rem;
+
+}
+
+.data {
+    margin: 1rem;
+}
+
+.cms {
+    margin: 1rem;
+}
